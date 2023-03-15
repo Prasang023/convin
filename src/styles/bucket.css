@@ -1,0 +1,48 @@
+.bucket-container{
+    /* width: 100%; */
+    padding: 20px;
+    margin: 20px;
+    /* background-color: #ccc; */
+    position: relative;
+    z-index: 1;
+    background: rgba(240, 240, 240, 0.4);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    border: 1px solid rgba(255,255,255,0.2);
+}
+
+.card-container{
+    width: 100%;
+    margin: 20px;
+    display: flex;
+    z-index: 1;
+    overflow-x: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.card-container::-webkit-scrollbar {
+    display: none;
+  }
+
+.bucket-head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1;
+}
+
+.add-card:hover{
+    background-color: #9a9a9a;
+    cursor: pointer;
+}
+
+.dropdown{
+    cursor: pointer;
+}
+
+.btn-container{
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px;
+}
