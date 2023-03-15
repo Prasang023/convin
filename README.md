@@ -1,5 +1,5 @@
 # To run the app
 
-```npm install
+`npm install
 json-server --watch db.json
-npm run start```
+npm run start`
