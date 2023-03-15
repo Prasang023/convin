@@ -1,5 +1,7 @@
 
-# To run the app
+# Convin App
+
+### To run the app
 
 ```
 npm install
